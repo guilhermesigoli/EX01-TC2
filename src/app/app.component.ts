@@ -11,6 +11,6 @@ export class AppComponent {
   show: boolean = false;
 
   showWally() {
-    this.show = true;
+    this.show = !this.show;
   }
 }

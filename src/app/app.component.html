@@ -1,5 +1,5 @@
 <div class="card">
   <h1>Onde está Wally?</h1>
-  <button (click)="showWally()">Mostrar Wally</button>
+  <button (click)="showWally()">{{show? 'Esconder Wally' : 'Mostrar Wally'}}</button>
   <app-wally *ngIf="show"></app-wally>
 </div>
